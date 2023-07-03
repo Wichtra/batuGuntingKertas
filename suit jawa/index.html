@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUIT</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 100vh;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+        section.main {
+            position: relative;
+            text-align: center;
+            border-radius: 32px;
+            width: 35%;
+            min-height: 90vh;
+            background-color: white;
+            justify-content: center;
+        }
+        div.my-Player{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items:end;
+            margin-top: 20%;
+        }
+        section h1{
+            padding: 50px;
+        }
+
+        img:hover{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body style="background-color:lightgray;">
+    <section class="main">
+        <div class="computer">
+            <h1>BGK</h1>
+            <img src="./images/batu.jpg" alt="komputer" width="100px" class="cpu">
+            <p>Computer</p>
+        </div>
+        <div class="my-Player">
+            <img src="./images/batu.jpg" alt="batu"  width="100px" class="batu">
+            <img src="./images/gunting.jpg" alt="batu" width="100px" class="gunting">
+            <img src="./images/kertas.jpg" alt="batu" width="100px" class="kertas">
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
